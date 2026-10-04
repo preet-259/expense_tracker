@@ -1,0 +1,90 @@
+# =========================
+# GLOBAL DEPENDENCIES & ENV
+# =========================
+node_modules/
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# =========================
+# NEXT.JS (FRONTEND)
+# =========================
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# =========================
+# NESTJS (BACKEND)
+# =========================
+backend/dist/
+backend/build/
+backend/.nyc_output/
+
+# =========================
+# TESTING & COVERAGE
+# =========================
+coverage/
+
+# =========================
+# LOGS & DIAGNOSTICS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# =========================
+# RUNTIME & TEMP DATA
+# =========================
+pids/
+*.pid
+*.seed
+*.pid.lock
+.temp/
+.tmp/
+
+# =========================
+# PACKAGE MANAGERS (YARN/PNP)
+# =========================
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# =========================
+# IDEs, EDITORS, & OS
+# =========================
+.DS_Store
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# MISCELLANEOUS (POSTMAN)
+# =========================
+.postman/
+*.postman
+postman/
